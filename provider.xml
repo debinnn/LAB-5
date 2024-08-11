@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="provider.xsl" type="text/xsl" ?>
+<agro:agroProviders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:agro="http://www.example.com/provider" xsi:schemaLocation="http://www.example.com/provider provider.xsd">
+
+<agro:provider id="p1">
+    <agro:name>Green Farms Produce</agro:name>
+    <agro:phone>321-654-9870</agro:phone>
+    <agro:email>info@greenfarmsproduce.com</agro:email>
+    <agro:address>456 Farm Lane, Agriculture Town</agro:address>
+    <agro:price>20.00</agro:price>
+    <agro:rating>4.6</agro:rating>
+    <agro:longitude>34.567890</agro:longitude>
+    <agro:latitude>-89.123456</agro:latitude>
+    <agro:menu>
+        <agro:menuName>Fresh Produce</agro:menuName>
+        <agro:description>A variety of organic fruits and vegetables</agro:description>
+        <agro:item>
+            <agro:itemName>Organic Apples</agro:itemName>
+            <agro:itemDiet>Fruit</agro:itemDiet>
+            <agro:itemPrice>3.50</agro:itemPrice>
+        </agro:item>
+        <agro:item>
+            <agro:itemName>Fresh Carrots</agro:itemName>
+            <agro:itemDiet>Vegetable</agro:itemDiet>
+            <agro:itemPrice>2.75</agro:itemPrice>
+        </agro:item>
+    </agro:menu>
+</agro:provider>
+
+<agro:provider id="p2">
+    <agro:name>Farmers' Choice Market</agro:name>
+    <agro:phone>789-321-6540</agro:phone>
+    <agro:email>contact@farmerschoicemarket.com</agro:email>
+    <agro:address>789 Country Road, Harvest City</agro:address>
+    <agro:price>15.00</agro:price>
+    <agro:rating>4.4</agro:rating>
+    <agro:longitude>35.678901</agro:longitude>
+    <agro:latitude>-90.234567</agro:latitude>
+    <agro:menu>
+        <agro:menuName>Farm Fresh Goods</agro:menuName>
+        <agro:description>Quality farm products delivered fresh</agro:description>
+        <agro:item>
+            <agro:itemName>Free-Range Eggs</agro:itemName>
+            <agro:itemDiet>Eggs</agro:itemDiet>
+            <agro:itemPrice>5.00</agro:itemPrice>
+        </agro:item>
+        <agro:item>
+            <agro:itemName>Whole Grain Bread</agro:itemName>
+            <agro:itemDiet>Bakery</agro:itemDiet>
+            <agro:itemPrice>4.25</agro:itemPrice>
+        </agro:item>
+    </agro:menu>
+</agro:provider>
+
+<agro:provider id="p3">
+    <agro:name>Harvest Gold Organics</agro:name>
+    <agro:phone>654-987-3210</agro:phone>
+    <agro:email>sales@harvestgoldorganics.com</agro:email>
+    <agro:address>123 Organic Way, Greenfield</agro:address>
+    <agro:price>22.50</agro:price>
+    <agro:rating>4.8</agro:rating>
+    <agro:longitude>36.789012</agro:longitude>
+    <agro:latitude>-91.345678</agro:latitude>
+    <agro:menu>
+        <agro:menuName>Organic Selections</agro:menuName>
+        <agro:description>Premium organic fruits and vegetables</agro:description>
+        <agro:item>
+            <agro:itemName>Organic Tomatoes</agro:itemName>
+            <agro:itemDiet>Vegetable</agro:itemDiet>
+            <agro:itemPrice>4.00</agro:itemPrice>
+        </agro:item>
+        <agro:item>
+            <agro:itemName>Fresh Herbs</agro:itemName>
+            <agro:itemDiet>Herbs</agro:itemDiet>
+            <agro:itemPrice>6.00</agro:itemPrice>
+        </agro:item>
+    </agro:menu>
+</agro:provider>
+
+<agro:provider id="p4">
+    <agro:name>Country Fresh Market</agro:name>
+    <agro:phone>987-123-4567</agro:phone>
+    <agro:email>info@countryfreshmarket.com</agro:email>
+    <agro:address>345 Rural Road, Farmville</agro:address>
+    <agro:price>18.00</agro:price>
+    <agro:rating>4.5</agro:rating>
+    <agro:longitude>37.890123</agro:longitude>
+    <agro:latitude>-92.456789</agro:latitude>
+    <agro:menu>
+        <agro:menuName>Local Harvest</agro:menuName>
+        <agro:description>Locally sourced produce and goods</agro:description>
+        <agro:item>
+            <agro:itemName>Raw Honey</agro:itemName>
+            <agro:itemDiet>Sweetener</agro:itemDiet>
+            <agro:itemPrice>8.00</agro:itemPrice>
+        </agro:item>
+        <agro:item>
+            <agro:itemName>Sweet Corn</agro:itemName>
+            <agro:itemDiet>Cereal</agro:itemDiet>
+            <agro:itemPrice>3.00</agro:itemPrice>
+        </agro:item>
+    </agro:menu>
+</agro:provider>
+
+<agro:provider id="p5">
+    <agro:name>EcoHarvest Goods</agro:name>
+    <agro:phone>123-456-7890</agro:phone>
+    <agro:email>contact@ecoharvestgoods.com</agro:email>
+    <agro:address>678 Eco Street, Sustainable City</agro:address>
+    <agro:price>25.00</agro:price>
+    <agro:rating>4.9</agro:rating>
+    <agro:longitude>38.901234</agro:longitude>
+    <agro:latitude>-93.567890</agro:latitude>
+    <agro:menu>
+        <agro:menuName>Eco-Friendly Offerings</agro:menuName>
+        <agro:description>Sustainable and eco-friendly agricultural products</agro:description>
+        <agro:item>
+            <agro:itemName>Organic Avocados</agro:itemName>
+            <agro:itemDiet>Fruit</agro:itemDiet>
+            <agro:itemPrice>5.50</agro:itemPrice>
+        </agro:item>
+        <agro:item>
+            <agro:itemName>Organic Quinoa</agro:itemName>
+            <agro:itemDiet>Cereal</agro:itemDiet>
+            <agro:itemPrice>7.75</agro:itemPrice>
+        </agro:item>
+    </agro:menu>
+</agro:provider>
+
+
+</agro:agroProviders>

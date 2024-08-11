@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar-link:hover {
+            color: black;
+        }
+        .feature-item:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-green-600 p-4 shadow-md">
+        <div class="container mx-auto flex justify-end items-center">
+            <a href="#" class="text-white text-lg font-semibold mx-4 navbar-link">Home</a>
+            <a href="#about" class="text-white text-lg font-semibold mx-4 navbar-link">About Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-96" style="background-image: url('farm.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative container mx-auto flex flex-col items-center justify-center h-full text-center text-white">
+            <h1 class="text-4xl font-bold mb-4">Welcome to AgroMarket</h1>
+            <p class="text-lg">Connecting you with the freshest and finest agricultural products.</p>
+            <a href="#about" class="mt-6 inline-block bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-8">
+        <!-- About Us Section -->
+        <section id="about" class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold mb-6">About Us</h2>
+            <p class="text-gray-700 mb-4">
+                AgroMarket is a leading agricultural marketplace dedicated to connecting farmers and producers with consumers who value high-quality, fresh produce. Our mission is to support sustainable farming practices and provide a platform where local agriculture can thrive.
+            </p>
+            <p class="text-gray-700">
+                We offer a wide range of products including fruits, vegetables, dairy products, and more, all sourced from trusted local farms. At AgroMarket, we are committed to ensuring that our customers receive the best products while also supporting the agricultural community.
+            </p>
+        </section>
+
+        <!-- Features Section -->
+        <section class="mt-12">
+            <h2 class="text-3xl font-bold mb-6 text-center">Our Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center feature-item">
+                    <h3 class="text-xl font-semibold mb-4">Fresh Produce</h3>
+                    <p class="text-gray-700">Get the freshest fruits and vegetables directly from local farms.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center feature-item">
+                    <h3 class="text-xl font-semibold mb-4">Sustainable Farming</h3>
+                    <p class="text-gray-700">Support farms that use sustainable and eco-friendly practices.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center feature-item">
+                    <h3 class="text-xl font-semibold mb-4">Local Goods</h3>
+                    <p class="text-gray-700">Find a variety of local goods and products that support your community.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 AgroMarket. All rights reserved.</p>
+            <p>Follow us on:
+                <a href="#" class="text-white hover:underline">Facebook</a>,
+                <a href="#" class="text-white hover:underline">Twitter</a>,
+                <a href="#" class="text-white hover:underline">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
